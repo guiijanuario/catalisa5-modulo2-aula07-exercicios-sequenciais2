@@ -27,7 +27,7 @@ public class Exercicio7 {
         double calculoSalarioLiquido = calculoSalario - calculoINSS - calculoImposto - calculoSindicato;
         System.out.println("Seu salário liquido é " + "R$ " + formatador.format(calculoSalarioLiquido));
 
-        double calculoSalarioLiquidoDif = calculoSalarioLiquido - calculoSalario;
+        double calculoSalarioLiquidoDif = calculoSalario - calculoSalarioLiquido;
         System.out.println("Foi descontado do seu salário o total de " + "R$ " + formatador.format(calculoSalarioLiquidoDif));
 
     }
